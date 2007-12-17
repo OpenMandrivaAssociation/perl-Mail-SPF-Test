@@ -14,7 +14,6 @@ BuildRequires:	perl-NetAddr-IP
 BuildRequires:	perl-Net-DNS
 BuildRequires:	perl-YAML
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Mail::SPF::Test is a class for reading and manipulating SPF test-suite data.
