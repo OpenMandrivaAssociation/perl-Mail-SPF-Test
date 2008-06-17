@@ -3,7 +3,7 @@
 Summary:	SPF test-suite class
 Name:		perl-%{real_name}
 Version:	1.001
-Release:	%mkrel 2
+Release:	%mkrel 3
 License:	GPL or Artistic
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{real_name}
