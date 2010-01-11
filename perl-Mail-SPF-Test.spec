@@ -9,11 +9,10 @@ License:	GPL or Artistic
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{upstream_name}
 Source:     http://www.cpan.org/modules/by-module/Mail/%{upstream_name}-v%{upstream_version}.tar.bz2
-BuildRequires:	perl-devel
-BuildRequires:	perl-Module-Build
-BuildRequires:	perl-NetAddr-IP
-BuildRequires:	perl-Net-DNS
-BuildRequires:	perl-YAML
+BuildRequires:	perl(Module::Build)
+BuildRequires:	perl(NetAddr::IP)
+BuildRequires:	perl(Net::DNS)
+BuildRequires:	perl(YAML)
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
 
