@@ -4,7 +4,7 @@
 Summary:	SPF test-suite class
 Name:		perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	GPL or Artistic
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{upstream_name}
