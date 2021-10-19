@@ -19,10 +19,10 @@ BuildRequires:	perl(YAML)
 Mail::SPF::Test is a class for reading and manipulating SPF test-suite data.
 
 %prep
-%setup -qn %{modname}-v%{modver} 
+%autosetup -p1 -n %{modname}-v%{modver} 
 
 %build
-%__perl Build.PL installdirs=vendor
+perl Build.PL installdirs=vendor
 ./Build
 
 %check
@@ -35,5 +35,5 @@ Mail::SPF::Test is a class for reading and manipulating SPF test-suite data.
 %doc CHANGES LICENSE README TODO
 %{perl_vendorlib}/Mail/SPF/*.pm
 %{perl_vendorlib}/Mail/SPF/Test/*.pm
-%{_mandir}/man3/*
+%doc %{_mandir}/man3/*
 
