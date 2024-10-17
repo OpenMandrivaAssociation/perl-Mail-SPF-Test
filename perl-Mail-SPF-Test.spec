@@ -7,7 +7,7 @@ Version:	%perl_convert_version %{modver}
 Release:	1
 License:	GPLv2 or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{modname}
+Url:		https://search.cpan.org/dist/%{modname}
 Source0:	http://www.cpan.org/modules/by-module/Mail/%{modname}-v%{modver}.tar.bz2
 BuildArch:	noarch
 BuildRequires:	perl(Module::Build)
