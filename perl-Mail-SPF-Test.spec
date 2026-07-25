@@ -1,14 +1,14 @@
 %define modname	Mail-SPF-Test
-%define modver	1.001
+%define modver	v1.001
 
 Summary:	SPF test-suite class
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
+Version:	%{modver}
 Release:	1
 License:	GPLv2 or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{modname}
-Source0:	http://www.cpan.org/modules/by-module/Mail/%{modname}-v%{modver}.tar.bz2
+Url:		https://metacpan.org/dist/Mail-SPF-Test
+Source0:	https://cpan.metacpan.org/authors/id/J/JM/JMEHNLE/mail-spf-test/Mail-SPF-Test-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl(Module::Build)
 BuildRequires:	perl(NetAddr::IP)
