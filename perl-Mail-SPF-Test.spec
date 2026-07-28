@@ -4,7 +4,7 @@
 Summary:	SPF test-suite class
 Name:		perl-%{modname}
 Version:	%{modver}
-Release:	1
+Release:	2
 License:	GPLv2 or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/dist/Mail-SPF-Test
@@ -19,7 +19,7 @@ BuildRequires:	perl(YAML)
 Mail::SPF::Test is a class for reading and manipulating SPF test-suite data.
 
 %prep
-%autosetup -p1 -n %{modname}-v%{modver} 
+%autosetup -p1 -n %{modname}-%{modver}
 
 %build
 perl Build.PL installdirs=vendor
